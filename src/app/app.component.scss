@@ -1,0 +1,255 @@
+
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+
+
+    .corpo-apresentacao{
+
+        h2 {
+            font-weight:lighter;
+            
+        }
+        p{
+          padding-top: 20px;
+          max-width: 1200px;
+
+          margin: 0 auto;
+          text-align: center;
+            text-align: start;
+            margin-top: 50px;
+            margin-left: 100px;
+
+        }
+    }
+
+}
+
+
+.second-section {
+
+    .conteiner {
+        width: 100%;
+        // controla o tamanho máximo do container individual
+        margin: 0px;
+        padding: 60px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      
+        background-color: #6E6E6E;
+        color: white;
+        border: 2px solid #C8BFE7;
+    
+      
+        img {
+          margin-bottom: 20px;
+        }
+      
+        p {
+          padding-top: 20px;
+        }
+      }
+      
+      .divsor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    
+      }
+      
+}
+
+.terceira-section {
+  display: flex;
+  flex-direction: row;
+
+
+  .corpo-apresentacao{
+
+      h2 {
+          font-weight:lighter;
+          
+      }
+      p{
+        padding-top: 20px;
+        max-width: 1200px;
+
+        margin: 0 auto;
+        text-align: center;
+          text-align: start;
+          margin-top: 10px;
+          margin-left: 50px;
+
+      }
+  }
+
+}
+
+.quarta-section {
+  background-color: #C8BFE7;
+  .conteiner {
+      width: 100%;
+
+      margin: 20px;
+      padding: 60px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    
+      background-color: #6E6E6E;
+      color: white;
+      border: 2px solid #C8BFE7;
+  
+    
+      img {
+        margin-bottom: 20px;
+      }
+    
+      p {
+        padding-top: 20px;
+      }
+    }
+    
+    .divsor {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  
+  
+    }
+    
+}
+
+.quinta-section {
+  display: flex;
+  flex-direction: row;
+
+
+  .corpo-apresentacao{
+      margin-left: 50px;
+      padding-top: 50px;
+
+      h2 {
+        margin: 0 auto;
+        text-align: center;
+          text-align: start;
+          margin-top: 10px;
+
+          font-weight:bold;
+          
+      }
+      p{
+        padding-top: 20px;
+        max-width: 1200px;
+
+
+
+      }
+  }
+
+}
+
+
+.divisor {
+    .conteiner {
+        display: flex;
+        text-align: center;
+        color: white;
+        width: 100%;
+        max-width: 100%;
+       max-height: 300px;
+       height: 150px;
+       background-color: #C8BFE7;
+       h3 {
+        padding-top: 20px;
+        max-width: 1200px;
+        height: 20px;
+        margin: 0 auto;
+        text-align: center;
+       }
+    }
+}
+
+.contato {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #C8BFE7;
+  color: white;
+  h3 {
+    font-weight: lighter;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+}
+
+.imagem-pessoas {
+    max-width: 800px;
+    width: 100%;
+    height: auto; // garante que a proporção seja mantida
+}
+
+.pamela {
+  max-width: 800px;
+  width: 100%;
+  height: auto; // garante que a proporção seja mantida
+  
+}
+
+.pamela3 {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+
+  
+}
+
+
+@media (width <= 856px) {
+  .divisor {
+    .conteiner {
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (width <= 1442px) {
+    .first-section {
+
+        flex-direction: column;
+    }
+
+    .terceira-section {
+      flex-direction: column;
+    }
+
+    .quinta-section {
+      flex-direction: column;
+    }
+    
+}
+
+/* Responsividade extra opcional */
+@media (min-width: 768px) {
+    .conteiner {
+      flex: 1 1 30%; // 3 por linha quando possível
+    }
+  }
