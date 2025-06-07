@@ -1,4 +1,52 @@
+.pamela-banner {
+  background-image: url('/assets/banner-pamela.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100%;
+  color: white;
+  position: relative;
+  transition: background-position 0.3s ease;
+}
+.frases{
 
+    font-family: 'Poppins', sans-serif;
+}
+.text-box {
+  padding: 2rem;
+ 
+  transition: background-color 0.3s ease;
+}
+
+@media (width <= 1191px) {
+  .texto-nulo {
+    display: none;
+  }
+}
+/* MODO CELULAR */
+@media (max-width: 768px) {
+  .pamela-banner {
+    background-position: left center; /* Come o lado direito */
+  }
+  .frases{
+  margin-bottom: 0px;
+  margin-top: 300px;
+  background-color: #2d10708f;
+}
+
+  .text-box {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro no texto apenas no celular */
+    text-align: center;
+  }
+}
+
+/* MODO DESKTOP */
+@media (min-width: 769px) {
+  .text-box {
+    background-color: transparent;
+    text-align: left;
+  }
+}
 
 .first-section {
     display: flex;

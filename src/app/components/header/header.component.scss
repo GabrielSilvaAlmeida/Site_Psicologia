@@ -14,13 +14,34 @@ header{
         background-color: #2D213D;
     }
 }
-
-
-
-.sidebar {
-    background-color: #2D213D;
+.pamela-logo-novo{
+    padding-bottom: 28px;
 }
 
-.dropdown-menu {
-    background-color: #2D213D;
-}
+ .navbar-logo {
+    width: 200px;
+    }
+    .navbar-nav .nav-link {
+      margin-right: 2rem;
+      font-weight: 500;
+    }
+    .social-icons img {
+      width: 50px;
+      margin-left: 1rem;
+    }
+    @media (max-width: 991px) {
+      .navbar-nav, .social-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 1rem;
+      }
+    }
+
+
+// .sidebar {
+//     background-color: #2D213D;
+// }
+
+// .dropdown-menu {
+//     background-color: #2D213D;
+// }
