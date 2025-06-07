@@ -9,12 +9,14 @@
   transition: background-position 0.3s ease;
 }
 .frases{
-
     font-family: 'Poppins', sans-serif;
+
+    h2 {
+      padding-bottom: 25px;
+    }
 }
 .text-box {
   padding: 2rem;
- 
   transition: background-color 0.3s ease;
 }
 
